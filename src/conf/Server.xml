@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ListenAddress:服务监听地址
+MaxClientNumber:最大客户端数量，最大连接数量不允许超过15000个连接
+InitialMemory 初始化内存占用设置，单位MB
+
+-->
+
+<Server ListenAddress=":8902" MaxClientNumber = "100" InitialMemory="200">
+	<FreeMemory  Auto= "true"  AutoFreeMemoryPeriod = "600" />
+</Server>
